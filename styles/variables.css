@@ -1,0 +1,48 @@
+:root {
+  --color-black-01: #333333;
+  --color-interactive-01: #0063d4;
+  --color-interactive-02: #68a7f0;
+
+  --font-family-body: "Newsreader", serif;
+  --font-family-title: "Cinzel", serif;
+
+  --logo-size-display: 500px;
+  --logo-size-content: 200px;
+  --logo-size-thumbnail: 50px;
+
+  --text-font-weight-normal: 400;
+  --text-font-weight-heavy: 700;
+
+  --text-line-height-body: 2;
+  --text-line-height-header-01: 1.5;
+  --text-line-height-header-02: 1.5;
+  --text-line-height-header-03: 1.5;
+  --text-line-height-header-04: 1.5;
+  --text-line-height-header-05: 1.5;
+  --text-line-height-header-06: 1.5;
+  --text-line-height-list-item:  1rem; /* 16px */
+  --text-line-height-sub-01: 2;
+
+  --text-size-body: 1rem; /* 16px */
+  --text-size-header-01: 3rem; /* 48px */
+  --text-size-header-02: 2.5rem; /* 40px */
+  --text-size-header-03: 2rem; /* 32px */
+  --text-size-header-04: 1.75rem; /* 28px */
+  --text-size-header-05: 1.5rem; /* 24px */
+  --text-size-header-06: 1.25rem; /* 20px */
+  --text-size-list-item:  1rem; /* 16px */
+  --text-size-sub-01: 0.75rem; /* 12px */
+
+  --text-spacing-body:  1rem; /* 16px */
+  --text-spacing-grouped-content:  2rem; /* 32px */
+  --text-spacing-header-01: 3rem; /* 48px */
+  --text-spacing-header-02: 2.5rem; /* 40px */
+  --text-spacing-header-03: 2rem; /* 32px */
+  --text-spacing-header-04: 1.75rem; /* 28px */
+  --text-spacing-header-05: 1.5rem; /* 24px */
+  --text-spacing-header-06: 1.25rem; /* 20px */
+  --text-spacing-list-item:  1rem; /* 16px */
+  --text-spacing-sub-01: 1rem; /* 16px */
+
+  --transition-speed: 0.3s;
+}
