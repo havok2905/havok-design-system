@@ -1,5 +1,7 @@
 import React from "react";
 import {
+  Button,
+  ButtonContainer,
   Link,
   SimpleList,
   Text,
@@ -16,6 +18,11 @@ export const Page = () => {
       <Title as="h2" level="02">
         The quick brown fox jumps over the lazy dog
       </Title>
+      <ButtonContainer>
+        <Button text="Hello, world!"/>
+        <Button buttonType="secondary" text="Hello, world!"/>
+        <Button buttonType="destructive" text="Hello, world!"/>
+      </ButtonContainer>
       <Text>
         Lorem ipsum <Link to="#">dolor sit amet, consectetur adipiscing elit</Link>. Nunc iaculis iaculis dictum. Morbi a eleifend dui, vitae mattis justo. Suspendisse porta neque et nunc mollis ultricies. Morbi sapien enim, rhoncus et eleifend eget, gravida eu nulla. Praesent a lectus dictum, ultrices leo eu, ultrices nibh. Mauris vitae aliquet risus, mattis finibus risus. Nunc tincidunt magna vitae cursus volutpat. Donec felis mi, elementum nec erat vitae, convallis euismod dolor. Morbi et sagittis dolor. Nunc suscipit, ex vel vestibulum porta, orci urna varius ipsum, quis accumsan erat dui vitae metus. Donec tincidunt tempus odio quis venenatis. Sed laoreet arcu non viverra gravida. Integer dapibus, eros sed imperdiet vehicula, libero ligula faucibus tellus, ut facilisis augue quam eget metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam erat volutpat. 
       </Text>

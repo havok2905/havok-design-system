@@ -1,14 +1,19 @@
 :root {
+  --color-black-00: #000000;
   --color-black-01: #333333;
+  --color-destructive-01: #c42727;
   --color-gray-01: #c2c2c2;
   --color-interactive-01: #0063d4;
   --color-interactive-02: #68a7f0;
+  --color-white-01: #ffffff;
 
   --border-base: solid var(--color-gray-01) 1px;
+  --border-dark: solid var(--color-black-00) 1px;
 
   --border-radius-01: 0.25rem;
+  --border-radius-02: 0.5rem;
 
-  --box-shadow-base: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+  --box-shadow-base: 0 0 8px 0 rgba(0, 0, 0, 0.85);
 
   --font-family-body: "Newsreader", serif;
   --font-family-title: "Cinzel", serif;
@@ -34,6 +39,7 @@
   --text-line-height-sub-01: 2;
 
   --text-size-body: 1rem; /* 16px */
+  --text-size-button: 1rem; /* 16px */
   --text-size-header-01: 3rem; /* 48px */
   --text-size-header-02: 2.5rem; /* 40px */
   --text-size-header-03: 2rem; /* 32px */
@@ -44,6 +50,7 @@
   --text-size-sub-01: 0.75rem; /* 12px */
 
   --text-spacing-body:  1rem; /* 16px */
+  --text-spacing-button:  0.5rem; /* 8px */
   --text-spacing-grouped-content:  2rem; /* 32px */
   --text-spacing-header-01: 3rem; /* 48px */
   --text-spacing-header-02: 2.5rem; /* 40px */
