@@ -1,6 +1,7 @@
 import React from "react";
 import {
   Link,
+  SimpleList,
   Text,
   Title
 } from '../../components/core';
@@ -33,28 +34,17 @@ export const Page = () => {
       <Title as="h4" level="04">
         The quick brown fox jumps over the lazy dog
       </Title>
-      <ul className="havok-design-system-unordered-list">
-        <li className="havok-design-system-list-item">
-          The quick brown fox jumps over the lazy dog
-        </li>
-        <li className="havok-design-system-list-item">
-          The quick brown fox jumps over the lazy dog
-        </li>
-        <li className="havok-design-system-list-item">
-          The quick brown fox jumps over the lazy dog
-        </li>
-      </ul>
-      <ol className="havok-design-system-ordered-list">
-        <li className="havok-design-system-list-item">
-          The quick brown fox jumps over the lazy dog
-        </li>
-        <li className="havok-design-system-list-item">
-          The quick brown fox jumps over the lazy dog
-        </li>
-        <li className="havok-design-system-list-item">
-          The quick brown fox jumps over the lazy dog
-        </li>
-      </ol>
+      <SimpleList items={[
+        {
+          content: 'The quick brown fox jumps over the lazy dog'
+        },
+        {
+          content: 'The quick brown fox jumps over the lazy dog'
+        },
+        {
+          content: 'The quick brown fox jumps over the lazy dog'
+        }
+      ]}/>
       <Text>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean vel magna eget lorem commodo mattis. Curabitur consectetur dolor sed nisi facilisis mattis. Fusce ut efficitur ante. Nulla vitae libero risus. Suspendisse id condimentum mauris, vel cursus augue. Aenean in ligula orci. Mauris nec mauris ac risus condimentum scelerisque. In ut dapibus turpis, id efficitur erat. Morbi id blandit augue. Suspendisse porta mi diam, a euismod sem consequat eget. Morbi euismod eleifend faucibus. 
       </Text>

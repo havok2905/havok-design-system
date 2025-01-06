@@ -1,7 +1,14 @@
 :root {
   --color-black-01: #333333;
+  --color-gray-01: #c2c2c2;
   --color-interactive-01: #0063d4;
   --color-interactive-02: #68a7f0;
+
+  --border-base: solid var(--color-gray-01) 1px;
+
+  --border-radius-01: 0.25rem;
+
+  --box-shadow-base: 0 0 10px 0 rgba(0, 0, 0, 0.25);
 
   --font-family-body: "Newsreader", serif;
   --font-family-title: "Cinzel", serif;
@@ -9,6 +16,9 @@
   --logo-size-display: 500px;
   --logo-size-content: 200px;
   --logo-size-thumbnail: 50px;
+
+  --padding-size-01: 0.5rem;
+  --padding-size-02: 1.25rem;
 
   --text-font-weight-normal: 400;
   --text-font-weight-heavy: 700;
