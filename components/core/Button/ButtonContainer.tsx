@@ -5,30 +5,24 @@ import React, {
 } from 'react';
 import classNames from 'classnames';
 
-export interface LinkProps {
+export interface ButtonContainerProps {
   children: ReactNode;
-  to: string;
 }
 
-export const Link: FC<LinkProps & HTMLAttributes<HTMLAnchorElement>> = ({
+export const ButtonContainer: FC<ButtonContainerProps & HTMLAttributes<HTMLDivElement>> = ({
   children,
-  to,
   ...props
 }) => {
   const classList = {
-    'havok-design-system-link': true,
+    'havok-design-system-button-container': true,
     [props.className ?? '']: true
   };
 
   const classString = classNames(classList);
 
   return (
-    <a
-      href={to}
-      {...props}
-      className={classString}
-    >
+    <div {...props} className={classString}>
       {children}
-    </a>
-  );
+    </div>
+  )
 };
