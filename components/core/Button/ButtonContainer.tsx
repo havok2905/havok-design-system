@@ -24,5 +24,5 @@ export const ButtonContainer: FC<ButtonContainerProps & HTMLAttributes<HTMLDivEl
     <div {...props} className={classString}>
       {children}
     </div>
-  )
+  );
 };

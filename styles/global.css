@@ -110,6 +110,10 @@ html {
   transition: var(--transition-speed);
 }
 
+.havok-design-system-button svg {
+  margin-right: var(--padding-size-02);
+}
+
 .havok-design-system-button-destructive {
   background: none;
   border: solid 2px var(--color-destructive-01);
