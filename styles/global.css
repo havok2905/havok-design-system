@@ -1,0 +1,137 @@
+html {
+  font-size: 16px;
+}
+
+.havok-design-system-body-text {
+  color: var(--color-black-01);
+  font-family: var(--font-family-body);
+  font-size: var(--text-size-body);
+  font-weight: var(--text-font-weight-normal);
+  line-height: var(--text-line-height-body);
+  margin-bottom: var(--text-spacing-body);
+}
+
+.havok-design-system-header-01 {
+  color: var(--color-black-01);
+  font-family: var(--font-family-title);
+  font-size: var(--text-size-header-01);
+  font-weight: var(--text-font-weight-normal);
+  line-height: var(--text-line-height-header-01);
+  margin-bottom: var(--text-spacing-header-01);
+}
+
+.havok-design-system-header-02 {
+  color: var(--color-black-01);
+  font-family: var(--font-family-title);
+  font-size: var(--text-size-header-02);
+  font-weight: var(--text-font-weight-normal);
+  line-height: var(--text-line-height-header-02);
+  margin-bottom: var(--text-spacing-header-02);
+}
+
+.havok-design-system-header-03 {
+  color: var(--color-black-01);
+  font-family: var(--font-family-title);
+  font-size: var(--text-size-header-03);
+  font-weight: var(--text-font-weight-normal);
+  line-height: var(--text-line-height-header-03);
+  margin-bottom: var(--text-spacing-header-03);
+}
+
+.havok-design-system-header-04 {
+  color: var(--color-black-01);
+  font-family: var(--font-family-body);
+  font-size: var(--text-size-header-04);
+  font-weight: var(--text-font-weight-heavy);
+  line-height: var(--text-line-height-header-04);
+  margin-bottom: var(--text-spacing-header-04);
+}
+
+.havok-design-system-header-05 {
+  color: var(--color-black-01);
+  font-family: var(--font-family-body);
+  font-size: var(--text-size-header-05);
+  font-weight: var(--text-font-weight-heavy);
+  line-height: var(--text-line-height-header-05);
+  margin-bottom: var(--text-spacing-header-05);
+}
+
+.havok-design-system-header-06 {
+  color: var(--color-black-01);
+  font-family: var(--font-family-body);
+  font-size: var(--text-size-header-06);
+  font-weight: var(--text-font-weight-heavy);
+  line-height: var(--text-line-height-header-06);
+  margin-bottom: var(--text-spacing-header-06);
+}
+
+.havok-design-system-sub-text {
+  color: var(--color-black-01);
+  font-family: var(--font-family-body);
+  font-size: var(--text-size-sub-01);
+  font-weight: var(--text-font-weight-normal);
+  line-height: var(--text-line-height-sub-01);
+  margin-bottom: var(--text-spacing-sub-01);
+}
+
+.havok-design-system-ordered-list {
+  list-style-type: decimal;
+  margin-bottom: var(--text-spacing-grouped-content);
+  margin-top: var(--text-spacing-grouped-content);
+  margin-left: 40px;
+}
+
+.havok-design-system-unordered-list {
+  list-style-type: disc;
+  margin-bottom: var(--text-spacing-grouped-content);
+  margin-top: var(--text-spacing-grouped-content);
+  margin-left: 40px;
+}
+
+.havok-design-system-list-item {
+  color: var(--color-black-01);
+  font-family: var(--font-family-body);
+  font-size: var(--text-size-list-item);
+  font-weight: var(--text-font-weight-normal);
+  line-height: var(--text-line-height-list-item);
+  margin-bottom: var(--text-spacing-list-item);
+}
+
+.havok-design-system-link {
+  color: var(--color-interactive-01);
+  font-weight: var(--text-font-weight-heavy);
+  transition: var(--transition-speed);
+}
+
+.havok-design-system-link:hover {
+  color: var(--color-interactive-02);
+  transition: var(--transition-speed);
+}
+
+.havok-design-system-list-item.havok-design-system-bold-text,
+.havok-design-system-sub-text.havok-design-system-bold-text,
+.havok-design-system-body-text.havok-design-system-bold-text {
+  font-weight: var(--text-font-weight-heavy);
+}
+
+.havok-design-system-list-item.havok-design-system-italics-text,
+.havok-design-system-sub-text.havok-design-system-italics-text,
+.havok-design-system-body-text.havok-design-system-italics-text {
+  font-style: italic;
+}
+
+.havok-design-system-logo-display {
+  width: var(--logo-size-display);
+}
+
+.havok-design-system-logo-content {
+  width: var(--logo-size-content);
+}
+
+.havok-design-system-logo-thumbnail {
+  width: var(--logo-size-thumbnail);
+}
+
+.havok-design-system-logo-title {
+  text-align: center;
+}
