@@ -19,7 +19,7 @@ export const Page = () => {
         The quick brown fox jumps over the lazy dog
       </Title>
       <ButtonContainer>
-        <Button text="Hello, world!"/>
+        <Button iconType="copy" text="Hello, world!"/>
         <Button buttonType="secondary" text="Hello, world!"/>
         <Button buttonType="destructive" text="Hello, world!"/>
       </ButtonContainer>

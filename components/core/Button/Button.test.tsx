@@ -64,4 +64,17 @@ describe('ButtonContainer', () => {
     const subject = screen.getByText('Foo');
     expect(subject.getAttribute('class')).toEqual('havok-design-system-button havok-design-system-button-primary foo');
   });
+
+  it('handles an icon', async () => {
+    render(
+      <Button
+        buttonType="primary"
+        iconType="copy"
+        text="Foo"
+      />
+    );
+
+    const subject = document.querySelector('svg');
+    expect(subject).toBeTruthy();
+  });
 });
