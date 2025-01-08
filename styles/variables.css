@@ -1,6 +1,7 @@
 :root {
   --color-black-00: #000000;
   --color-black-01: #333333;
+  --color-black-02: #555555;
   --color-destructive-01: #c42727;
   --color-gray-01: #c2c2c2;
   --color-interactive-01: #0063d4;
@@ -9,11 +10,13 @@
 
   --border-base: solid var(--color-gray-01) 1px;
   --border-dark: solid var(--color-black-00) 1px;
+  --border-error: solid var(--color-destructive-01) 1px;
 
   --border-radius-01: 0.25rem;
   --border-radius-02: 0.5rem;
 
   --box-shadow-base: 0 0 8px 0 rgba(0, 0, 0, 0.85);
+  --box-shadow-inset: inset 0 0 8px 0 rgba(0, 0, 0, 0.85);
 
   --font-family-body: "Newsreader", serif;
   --font-family-title: "Cinzel", serif;
@@ -58,6 +61,8 @@
   --text-spacing-header-04: 1.75rem; /* 28px */
   --text-spacing-header-05: 1.5rem; /* 24px */
   --text-spacing-header-06: 1.25rem; /* 20px */
+  --text-spacing-input:  1rem; /* 16px */
+  --text-spacing-label:  0.5rem; /* 8px */
   --text-spacing-list-item:  1rem; /* 16px */
   --text-spacing-sub-01: 1rem; /* 16px */
 
