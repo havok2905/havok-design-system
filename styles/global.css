@@ -232,3 +232,102 @@ html {
   padding: var(--padding-size-02);
   width: 100%;
 }
+
+.havok-design-system-box.havok-design-system-box-no-margin-bottom {
+  margin-bottom: 0;
+}
+
+.havok-design-system-box.havok-design-system-box-no-margin-top {
+  margin-top: 0;
+}
+
+.havok-design-system-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--grid-spacing-01);
+  margin: var(--text-spacing-grouped-content) 0;
+  width: 100%;
+}
+
+.havok-design-system-row {
+  display: flex;
+  gap: var(--grid-spacing-01);
+}
+
+.havok-design-system-item-1 {
+  width: 8.33%;
+}
+
+.havok-design-system-item-2 {
+  width: 16.66%;
+}
+
+.havok-design-system-item-3 {
+  width: 25%;
+}
+
+.havok-design-system-item-4 {
+  width: 33.33%;
+}
+
+.havok-design-system-item-5 {
+  width: 41.66%;
+}
+
+.havok-design-system-item-6 {
+  width: 50%;
+}
+
+.havok-design-system-item-7 {
+  width: 58.33%;
+}
+
+.havok-design-system-item-8 {
+  width: 66.66%;
+}
+
+.havok-design-system-item-9 {
+  width: 75%;
+}
+
+.havok-design-system-item-10 {
+  width: 83.33%;
+}
+
+.havok-design-system-item-11 {
+  width: 91.66%;
+}
+
+.havok-design-system-item-12 {
+  width: 100%;
+}
+
+.havok-design-system-item-1 .havok-design-system-box:first-child,
+.havok-design-system-item-2 .havok-design-system-box:first-child,
+.havok-design-system-item-3 .havok-design-system-box:first-child,
+.havok-design-system-item-4 .havok-design-system-box:first-child,
+.havok-design-system-item-5 .havok-design-system-box:first-child,
+.havok-design-system-item-6 .havok-design-system-box:first-child,
+.havok-design-system-item-7 .havok-design-system-box:first-child,
+.havok-design-system-item-8 .havok-design-system-box:first-child,
+.havok-design-system-item-9 .havok-design-system-box:first-child,
+.havok-design-system-item-10 .havok-design-system-box:first-child,
+.havok-design-system-item-11 .havok-design-system-box:first-child,
+.havok-design-system-item-12 .havok-design-system-box:first-child {
+  margin-top: 0;
+}
+
+.havok-design-system-item-1 .havok-design-system-box:last-child,
+.havok-design-system-item-2 .havok-design-system-box:last-child,
+.havok-design-system-item-3 .havok-design-system-box:last-child,
+.havok-design-system-item-4 .havok-design-system-box:last-child,
+.havok-design-system-item-5 .havok-design-system-box:last-child,
+.havok-design-system-item-6 .havok-design-system-box:last-child,
+.havok-design-system-item-7 .havok-design-system-box:last-child,
+.havok-design-system-item-8 .havok-design-system-box:last-child,
+.havok-design-system-item-9 .havok-design-system-box:last-child,
+.havok-design-system-item-10 .havok-design-system-box:last-child,
+.havok-design-system-item-11 .havok-design-system-box:last-child,
+.havok-design-system-item-12 .havok-design-system-box:last-child {
+  margin-bottom: 0;
+}

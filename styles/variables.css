@@ -22,6 +22,8 @@
   --font-family-body: "Newsreader", serif;
   --font-family-title: "Cinzel", serif;
 
+  --grid-spacing-01: 1.25rem; /* 20px */
+
   --logo-size-display: 500px;
   --logo-size-content: 200px;
   --logo-size-thumbnail: 50px;
