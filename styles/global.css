@@ -221,3 +221,14 @@ html {
 .havok-design-system-logo-title {
   text-align: center;
 }
+
+.havok-design-system-box {
+  background-color: var(--color-white-01);
+  border-radius: var(--border-radius-02);
+  box-shadow: var(--box-shadow-light);
+  box-sizing: border-box;
+  margin-bottom: var(--text-spacing-grouped-content);
+  margin-top: var(--text-spacing-grouped-content);
+  padding: var(--padding-size-02);
+  width: 100%;
+}
