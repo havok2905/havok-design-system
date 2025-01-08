@@ -3,6 +3,7 @@ export * from './Icons';
 export * from './Label';
 export * from './Link';
 export * from './Logo';
+export * from './LogoTitle';
 export * from './SimpleList';
 export * from './Text';
 export * from './TextInput';

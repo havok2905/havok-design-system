@@ -38,7 +38,7 @@
   --text-line-height-header-04: 1.5;
   --text-line-height-header-05: 1.5;
   --text-line-height-header-06: 1.5;
-  --text-line-height-list-item:  1rem; /* 16px */
+  --text-line-height-list-item:  1;
   --text-line-height-sub-01: 2;
 
   --text-size-body: 1rem; /* 16px */

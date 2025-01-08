@@ -3,14 +3,12 @@ import {
   Button,
   ButtonContainer,
   Link,
+  LogoTitle,
   SimpleList,
   Text,
   TextInput,
   Title
 } from '../../components/core';
-import {
-  LogoTitle
-} from '../../components';
 
 export const Page = () => {
   return (

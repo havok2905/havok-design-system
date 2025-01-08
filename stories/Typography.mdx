@@ -1,0 +1,168 @@
+import { Meta, Typeset } from '@storybook/blocks';
+ 
+<Meta title="Variables/Typography" />
+ 
+export const typography = {
+  type: {
+    title: '"Cinzel", serif',
+    body: '"Newsreader", serif',
+  },
+  weight: {
+    regular: '400',
+    bold: '700'
+  },
+  size: {
+    s1: 48,
+    s2: 40,
+    s3: 32,
+    s4: 28,
+    s5: 24,
+    s6: 20,
+    s7: 16,
+    s8: 12
+  },
+};
+ 
+export const SampleText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.';
+ 
+# Typography
+
+## Ciznel
+
+This font should only be used in the following scenarios:
+
+- Titles
+- Buttons
+- Links, in headers, isolated from body content
+- Large display text
+
+This font should almost always be used with the `--text-font-weight-normal` variable.
+ 
+<Typeset
+  fontSizes={[
+    Number(typography.size.s1),
+    Number(typography.size.s2),
+    Number(typography.size.s3),
+    Number(typography.size.s4),
+    Number(typography.size.s5),
+    Number(typography.size.s6),
+    Number(typography.size.s7),
+    Number(typography.size.s8)
+  ]}
+  fontWeight={typography.weight.regular}
+  sampleText={SampleText}
+  fontFamily={typography.type.title}
+/>
+
+<Typeset
+  fontSizes={[
+    Number(typography.size.s1),
+    Number(typography.size.s2),
+    Number(typography.size.s3),
+    Number(typography.size.s4),
+    Number(typography.size.s5),
+    Number(typography.size.s6),
+    Number(typography.size.s7),
+    Number(typography.size.s8)
+  ]}
+  fontWeight={typography.weight.bold}
+  sampleText={SampleText}
+  fontFamily={typography.type.title}
+/>
+
+## Newsreader
+
+This font should be used for all readable text:
+
+- Article text
+- Card content
+- List items
+- Links, inline with other body text
+
+<Typeset
+  fontSizes={[
+    Number(typography.size.s1),
+    Number(typography.size.s2),
+    Number(typography.size.s3),
+    Number(typography.size.s4),
+    Number(typography.size.s5),
+    Number(typography.size.s6),
+    Number(typography.size.s7),
+    Number(typography.size.s8)
+  ]}
+  fontWeight={typography.weight.regular}
+  sampleText={SampleText}
+  fontFamily={typography.type.body}
+/>
+
+<Typeset
+  fontSizes={[
+    Number(typography.size.s1),
+    Number(typography.size.s2),
+    Number(typography.size.s3),
+    Number(typography.size.s4),
+    Number(typography.size.s5),
+    Number(typography.size.s6),
+    Number(typography.size.s7),
+    Number(typography.size.s8)
+  ]}
+  fontWeight={typography.weight.bold}
+  sampleText={SampleText}
+  fontFamily={typography.type.body}
+/>
+
+## Variables
+
+### Sizes
+
+| Variable | PX | REM |
+| -------- | -- | --- |
+| --text-size-body | 16 | 1 |
+| --text-size-button | 16 | 1 |
+| --text-size-header-01 | 48 | 3 |
+| --text-size-header-02 | 40 | 2.5 |
+| --text-size-header-03 | 32 | 2 |
+| --text-size-header-04 | 28 | 1.75 |
+| --text-size-header-05 | 24 | 1.5 |
+| --text-size-header-06 | 20 | 1.25 |
+| --text-size-list-item | 16 | 1 |
+| --text-size-sub-01 | 12 | 0.75 |
+
+### Spaces
+
+| Variable | PX | REM |
+| -------- | -- | --- |
+| --text-size-body | 16 | 1 |
+| --text-size-button | 8 | 0.5 |
+| --text-size-grouped-content | 32 | 2 |
+| --text-size-header-01 | 48 | 3 |
+| --text-size-header-02 | 40 | 2.5 |
+| --text-size-header-03 | 32 | 2 |
+| --text-size-header-04 | 28 | 1.75 |
+| --text-size-header-05 | 24 | 1.5 |
+| --text-size-header-06 | 20 | 1.25 |
+| --text-size-list-input | 16 | 1 |
+| --text-size-list-label | 8 | 0.5 |
+| --text-size-list-item | 16 | 1 |
+| --text-size-sub-01 | 16 | 1 |
+
+### Line Height
+
+| Variable | Value |
+| -------- | -- |
+| --text-line-height-body | 2 |
+| --text-line-height-header-01 | 1.5 |
+| --text-line-height-header-02 | 1.5 |
+| --text-line-height-header-03 | 1.5 |
+| --text-line-height-header-04 | 1.5 |
+| --text-line-height-header-05 | 1.5 |
+| --text-line-height-header-06 | 1.5 |
+| --text-line-height-list-item | 1 |
+| --text-line-height-sub-01 | 2 |
+
+### Weight
+
+| Variable | Value |
+| -------- | -- |
+| --text-font-weight-normal | 400 |
+| --text-font-weight-heavy | 700 |

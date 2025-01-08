@@ -3,10 +3,8 @@ import React, {
   HTMLAttributes
 } from 'react';
 import classNames from 'classnames';
-import {
-  Logo,
-  Title
-} from '../core';
+import { Logo } from '../Logo';
+import { Title } from '../Title';
 
 export interface LogoTitleProps {
   content: string;
