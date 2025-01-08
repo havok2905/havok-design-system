@@ -60,8 +60,6 @@ describe('TextInput', () => {
   });
 
   it('passes along class names', async () => {
-    const content = 'Foo';
-
     render(
       <TextInput
         className="foo"

@@ -30,5 +30,5 @@ export const Label: FC<LabelProps & HTMLAttributes<HTMLLabelElement> & LabelHTML
     >
       {text}
     </label>
-  )
+  );
 };

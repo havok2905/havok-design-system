@@ -41,8 +41,6 @@ describe('Label', () => {
   });
 
   it('passes along class names', async () => {
-    const content = 'Foo';
-
     render(
       <Label
         className="foo"
