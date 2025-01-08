@@ -98,6 +98,32 @@ html {
   border-bottom: var(--border-dark);
 }
 
+.havok-design-system-label {
+  color: var(--color-black-02);
+  display: block;
+  font-weight: var(--text-font-weight-heavy);
+  margin-bottom: var(--text-spacing-label);
+}
+
+.havok-design-system-label.havok-design-system-label-error {
+  color: var(--color-destructive-01);
+}
+
+.havok-design-system-text-input {
+  background-color: var(--color-black-01);
+  border: var(--border-base);
+  border-radius: var(--border-radius-01);
+  box-shadow: var(--box-shadow-inset);
+  color: var(--color-white-01);
+  font-family: var(--font-family-body);
+  margin-bottom: var(--text-spacing-input);
+  padding: var(--padding-size-01);
+}
+
+.havok-design-system-text-input.havok-design-system-text-input-error {
+  border: var(--border-error);
+}
+
 .havok-design-system-button {
   border-radius: var(--border-radius-02);
   box-sizing: border-box;
