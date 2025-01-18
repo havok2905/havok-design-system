@@ -5,6 +5,7 @@ import {
   ButtonContainer,
   Grid,
   GridRow,
+  Header,
   Link,
   LogoTitle,
   Item,
@@ -18,6 +19,28 @@ import {
 export const Page = () => {
   return (
     <>
+      <Header
+        headerTitle={{
+          text: 'Hello, world!',
+          to: '#'
+        }}
+        menu={{
+          items: [
+            {
+              label: 'Home',
+              to: '#'
+            },
+            {
+              label: 'About',
+              to: '#'
+            },
+            {
+              label: 'Contact',
+              to: '#'
+            }
+          ]
+        }}
+      />  
       <Grid>
         <GridRow>
           <Item columns={12}>

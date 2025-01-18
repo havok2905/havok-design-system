@@ -1,6 +1,9 @@
 :root {
+  --breakpoint-tablet: 768px;
+  --breakpoint-phone: 600px;
+
   --color-black-00: #000000;
-  --color-black-01: #333333;
+  --color-black-01: #222222;
   --color-black-02: #555555;
   --color-destructive-01: #c42727;
   --color-gray-01: #c2c2c2;
@@ -11,6 +14,7 @@
   --border-base: solid var(--color-gray-01) 1px;
   --border-dark: solid var(--color-black-00) 1px;
   --border-error: solid var(--color-destructive-01) 1px;
+  --border-light: solid var(--color-white-01) 1px;
 
   --border-radius-01: 0.25rem;
   --border-radius-02: 0.5rem;
@@ -26,11 +30,16 @@
 
   --logo-size-display: 500px;
   --logo-size-content: 200px;
-  --logo-size-thumbnail: 50px;
+  --logo-size-thumbnail: 40px;
+
+  --header-size: 60px;
 
   --padding-size-00: 0.25rem; /* 4px */
   --padding-size-01: 0.5rem; /* 8px */
   --padding-size-02: 1.25rem; /* 20px */
+  --padding-size-03: 2.5rem; /* 40px */
+  --padding-size-04: 5rem; /* 80px */
+  --padding-size-05: 10rem; /* 160px */
 
   --tag-size: 1.25rem; /* 20px */
 
@@ -75,4 +84,17 @@
   --text-spacing-sub-01: 1rem; /* 16px */
 
   --transition-speed: 0.3s;
+
+  --z-index-navbar: 995;
+  --z-index-dropdown: 1000;
+  --z-index-sticky: 1020;
+  --z-index-fixed: 1030;
+  --z-index-side-drawer-backdrop: 1040;
+  --z-index-side-drawer: 1045;
+  --z-index-modal-backdrop: 1050;
+  --z-index-modal: 1055;
+  --z-index-popover: 1070;
+  --z-index-tooltip: 1080;
+  --z-index-snackbar: 1085;
+  --z-index-toast: 1090;
 }

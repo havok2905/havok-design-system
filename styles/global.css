@@ -11,6 +11,112 @@ html {
   margin-bottom: var(--text-spacing-body);
 }
 
+.havok-design-system-side-drawer-backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: var(  --z-index-side-drawer-backdrop);
+}
+
+.havok-design-system-side-drawer {
+  background-color: var(--color-black-01);
+  border-left: solid 1px var(--color-black-02);
+  box-shadow: var(--box-shadow-base);
+  box-sizing: border-box;
+  color: var(--color-white-01);
+  height: 100%;
+  margin-right: -600px;
+  overflow-y: scroll;
+  padding: var(--padding-size-01);
+  position: fixed;
+  right: 0;
+  top: 0;
+  transition: margin-right 0.5s;
+  width: 600px;
+  z-index: var(--z-index-side-drawer);
+}
+
+.havok-design-system-side-drawer.havok-design-system-side-drawer-open {
+  margin-right: 0;
+}
+
+.havok-design-system-side-drawer-header {
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.havok-design-system-side-drawer img {
+  max-width: 100%;
+}
+
+.havok-design-system-side-drawer svg {
+  fill: var(--color-white-01);
+}
+
+.havok-design-system-header {
+  align-items: center;
+  background-color: var(--color-black-01);
+  border-bottom: var(--border-base);
+  box-shadow: var(--box-shadow-base);
+  box-sizing: border-box;
+  color: var(--color-white-01);
+  display: flex;
+  font-size: var(--text-size-body);
+  height: var(--header-size);
+  justify-content: space-between;
+  margin-bottom: var(--padding-size-05);
+  padding:  var(--padding-size-02);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: var(--z-index-navbar);
+}
+
+.havok-design-system-header-title-content {
+  align-items: center;
+  display: flex;
+}
+
+.havok-design-system-header-title-link {
+  color: var(--color-white-01);
+  text-decoration: none;
+}
+
+.havok-design-system-header-title-content svg {
+  color: var(--color-white-01);
+  fill: var(--color-white-01);
+}
+
+.havok-design-system-header-title {
+  font-family: var(--font-family-title);
+  margin-left: var(--padding-size-02);
+  text-transform: uppercase;
+}
+
+.havok-design-system-header-nav-link {
+  border-bottom: var(--border-light);
+  color: var(--color-white-01);
+  display: block;
+  font-family: var(--font-family-title);
+  font-size: var(--text-size-body);
+  margin-bottom: var(--padding-size-02) 0;
+  padding: var(--padding-size-02) var(--padding-size-01);
+  text-transform: uppercase;
+}
+
+.havok-design-system-header-nav-link:focus {
+  background-color: var(--color-white-01);
+  color: var(--color-black-01);
+}
+
+.havok-design-system-header-nav-link:hover {
+  background-color: var(--color-white-01);
+  color: var(--color-black-01);
+}
+
 .havok-design-system-header-01 {
   color: var(--color-black-01);
   font-family: var(--font-family-title);
@@ -133,6 +239,17 @@ html {
 
 .havok-design-system-text-input.havok-design-system-text-input-error {
   border: var(--border-error);
+}
+
+.havok-design-system-icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.havok-design-system-icon-button.havok-design-system-icon-button-dark-mode svg {
+  color: var(--color-white-01);
+  fill: var(--color-white-01);
 }
 
 .havok-design-system-button {
@@ -359,4 +476,21 @@ html {
 .havok-design-system-item-11 .havok-design-system-box:last-child,
 .havok-design-system-item-12 .havok-design-system-box:last-child {
   margin-bottom: 0;
+}
+
+/** PHONE BREAKPOINTS */
+
+@media (max-width: 600px) {
+  .havok-design-system-header-title {
+    font-size: var(--text-size-sub-01);
+  }
+
+  .havok-design-system-side-drawer {
+    transition: none;
+  }
+
+  .havok-design-system-side-drawer.havok-design-system-side-drawer-open {
+    margin-right: 0;
+    width: 100%;
+  }
 }

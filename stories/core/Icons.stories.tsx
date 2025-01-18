@@ -19,6 +19,14 @@ const meta: Meta<typeof Icon> = {
 
 export default meta;
 
+export const Close: StoryObj<typeof Icon> = {
+  args: {
+    size: 24,
+    iconType: 'close'
+  }
+};
+
+
 export const Copy: StoryObj<typeof Icon> = {
   args: {
     size: 24,
@@ -51,6 +59,13 @@ export const Mail: StoryObj<typeof Icon> = {
   args: {
     size: 24,
     iconType: 'mail'
+  }
+};
+
+export const Menu: StoryObj<typeof Icon> = {
+  args: {
+    size: 24,
+    iconType: 'menu'
   }
 };
 
