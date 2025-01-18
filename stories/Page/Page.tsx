@@ -9,6 +9,7 @@ import {
   LogoTitle,
   Item,
   SimpleList,
+  Tag,
   Text,
   TextInput,
   Title
@@ -24,6 +25,9 @@ export const Page = () => {
             <Title as="h2" level="02">
               The quick brown fox jumps over the lazy dog
             </Title>
+            <Tag  keyString="Foo" value="Barrrrr"/>
+            <Tag  keyString="Foo" value="Barrrrr"/>
+            <Tag  keyString="Foo" value="Barrrrr"/>
             <Text>
               Lorem ipsum <Link to="#">dolor sit amet, consectetur adipiscing elit</Link>. Nunc iaculis iaculis dictum. Morbi a eleifend dui, vitae mattis justo. Suspendisse porta neque et nunc mollis ultricies. Morbi sapien enim, rhoncus et eleifend eget, gravida eu nulla. Praesent a lectus dictum, ultrices leo eu, ultrices nibh. Mauris vitae aliquet risus, mattis finibus risus. Nunc tincidunt magna vitae cursus volutpat. Donec felis mi, elementum nec erat vitae, convallis euismod dolor. Morbi et sagittis dolor. Nunc suscipit, ex vel vestibulum porta, orci urna varius ipsum, quis accumsan erat dui vitae metus. Donec tincidunt tempus odio quis venenatis. Sed laoreet arcu non viverra gravida. Integer dapibus, eros sed imperdiet vehicula, libero ligula faucibus tellus, ut facilisis augue quam eget metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam erat volutpat. 
             </Text>
@@ -58,6 +62,17 @@ export const Page = () => {
             <Text>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean vel magna eget lorem commodo mattis. Curabitur consectetur dolor sed nisi facilisis mattis. Fusce ut efficitur ante. Nulla vitae libero risus. Suspendisse id condimentum mauris, vel cursus augue. Aenean in ligula orci. Mauris nec mauris ac risus condimentum scelerisque. In ut dapibus turpis, id efficitur erat. Morbi id blandit augue. Suspendisse porta mi diam, a euismod sem consequat eget. Morbi euismod eleifend faucibus. 
             </Text>
+            <SimpleList isBulleted items={[
+              {
+                content: 'The quick brown fox jumps over the lazy dog'
+              },
+              {
+                content: 'The quick brown fox jumps over the lazy dog'
+              },
+              {
+                content: 'The quick brown fox jumps over the lazy dog'
+              }
+            ]}/>
             <Title as="h5" level="05">
               The quick brown fox jumps over the lazy dog
             </Title>

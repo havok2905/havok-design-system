@@ -1,5 +1,6 @@
 export * from './Box';
 export * from './Button';
+export * from './GenericContentBlock';
 export * from './Grid';
 export * from './Icons';
 export * from './Label';
@@ -7,6 +8,7 @@ export * from './Link';
 export * from './Logo';
 export * from './LogoTitle';
 export * from './SimpleList';
+export * from './Tag';
 export * from './Text';
 export * from './TextInput';
 export * from './Title';

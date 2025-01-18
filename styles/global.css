@@ -40,27 +40,27 @@ html {
 
 .havok-design-system-header-04 {
   color: var(--color-black-01);
-  font-family: var(--font-family-body);
+  font-family: var(--font-family-title);
   font-size: var(--text-size-header-04);
-  font-weight: var(--text-font-weight-heavy);
+  font-weight: var(--text-font-weight-normal);
   line-height: var(--text-line-height-header-04);
   margin-bottom: var(--text-spacing-header-04);
 }
 
 .havok-design-system-header-05 {
   color: var(--color-black-01);
-  font-family: var(--font-family-body);
+  font-family: var(--font-family-title);
   font-size: var(--text-size-header-05);
-  font-weight: var(--text-font-weight-heavy);
+  font-weight: var(--text-font-weight-normal);
   line-height: var(--text-line-height-header-05);
   margin-bottom: var(--text-spacing-header-05);
 }
 
 .havok-design-system-header-06 {
   color: var(--color-black-01);
-  font-family: var(--font-family-body);
+  font-family: var(--font-family-title);
   font-size: var(--text-size-header-06);
-  font-weight: var(--text-font-weight-heavy);
+  font-weight: var(--text-font-weight-normal);
   line-height: var(--text-line-height-header-06);
   margin-bottom: var(--text-spacing-header-06);
 }
@@ -96,6 +96,17 @@ html {
 
 .havok-design-system-simple-list-item:not(:last-of-type) {
   border-bottom: var(--border-dark);
+}
+
+.havok-design-system-simple-list-bulleted {
+  list-style-type: disc;
+  margin-bottom: var(--text-spacing-grouped-content);
+  margin-left: 20px;
+  margin-top: var(--text-spacing-grouped-content);
+}
+
+.havok-design-system-simple-list-item-bulleted {
+  line-height: var(--text-line-height-list-item-bulleted);
 }
 
 .havok-design-system-label {
@@ -220,6 +231,24 @@ html {
 
 .havok-design-system-logo-title {
   text-align: center;
+}
+
+.havok-design-system-tag {
+  background-color: var(--color-black-01);
+  border-radius: var(--tag-size);
+  color: var(--color-white-01);
+  display: inline-block;
+  font-family: var(--font-family-body);
+  height: var(--tag-size);
+  line-height: var(--tag-size);
+  margin-bottom: var(--padding-size-01);
+  min-width: 50px;
+  padding: var(--padding-size-00) var(--padding-size-01);
+  text-align: center;
+}
+
+.havok-design-system-tag + .havok-design-system-tag {
+  margin-left: var(--padding-size-01);
 }
 
 .havok-design-system-box {

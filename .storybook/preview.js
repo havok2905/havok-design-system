@@ -1,6 +1,7 @@
 import '../styles/variables.css';
 import '../styles/reset.css';
 import '../styles/global.css';
+import '../styles/dnd.css';
 
 /** @type { import('@storybook/react').Preview } */
 const preview = {

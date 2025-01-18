@@ -1,0 +1,121 @@
+.havok-design-system-dnd-ability-row {
+  display: flex;
+  font-family: var(--font-family-body);
+  font-size: var(--text-size-sub-01);
+}
+
+.havok-design-system-dnd-ability-row:not(:last-of-type) {
+  margin-bottom: var(--padding-size-00);
+}
+
+.havok-design-system-dnd-ability-row-mod {
+  border-bottom: var(--border-dark);
+  display: inline-block;
+  margin-left : var(--padding-size-01);
+  margin-right: var(--padding-size-01);
+  text-align: center;
+  width: 20px;
+}
+
+.havok-design-system-dnd-ability-row-proficiency {
+  border: var(--border-dark);
+  border-radius: 10px;
+  height: 10px;
+  width: 10px;
+}
+
+.havok-design-system-dnd-ability-row-proficiency-proficient {
+  background-color: var(--color-black-01);
+}
+
+.havok-design-system-dnd-ability-row-skills {
+  box-sizing: border-box;
+  margin-left: var(--padding-size-01);
+  padding: var(--padding-size-00);
+}
+
+.havok-design-system-dnd-ability-row-skill {
+  align-items: center;
+  display: flex;
+  margin-bottom: 2px;
+}
+
+.havok-design-system-dnd-resource-container {
+  box-sizing: border-box;
+  font-family: var(--font-family-title);
+  height: 100px;
+  position: relative;
+  width: 140px;
+}
+
+.havok-design-system-dnd-score-container {
+  box-sizing: border-box;
+  font-family: var(--font-family-title);
+  height: 100px;
+  position: relative;
+  width: 100px;
+}
+
+.havok-design-system-dnd-resource-container-4px:before,
+.havok-design-system-dnd-score-container-4px:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--color-black-01);
+  clip-path: polygon(0 16px,16px 0,calc(100% - 16px) 0,100% 16px,100% calc(100% - 16px),calc(100% - 16px) 100%,16px 100%,0 calc(100% - 16px),0 16px,4px  calc(16px + 1.66px),4px calc(100% - 16px - 1.66px),calc(16px + 1.66px) calc(100% - 4px),calc(100% - 16px - 1.66px) calc(100% - 4px),calc(100% - 4px) calc(100% - 16px - 1.66px),calc(100% - 4px) calc(16px + 1.66px),calc(100% - 16px - 1.66px) 4px,calc(16px + 1.66px) 4px,4px calc(16px + 1.66px));
+}
+
+.havok-design-system-dnd-resource-container-inner-bevel {
+  border: var(--border-dark);
+  border-radius: 16px;
+  box-sizing: border-box;
+  left: 4px;
+  height: 88px;
+  position: absolute;
+  top: 6px;
+  width: 132px;
+}
+
+.havok-design-system-dnd-score-container-inner-bevel {
+  border: var(--border-dark);
+  border-radius: 16px;
+  box-sizing: border-box;
+  left: 4px;
+  height: 88px;
+  position: absolute;
+  top: 6px;
+  width: 92px;
+}
+
+.havok-design-system-dnd-score-container-mod {
+  align-items: center;
+  border: var(--border-dark);
+  display: flex;
+  font-size: var(--text-size-sub-02);
+  height: 20px;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+  top: 6px;
+  width: 20px;
+}
+
+.havok-design-system-dnd-resource-container-value,
+.havok-design-system-dnd-score-container-score {
+  align-items: center;
+  display: flex;
+  font-size: var(--text-size-header-04);
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
+.havok-design-system-dnd-resource-container-title,
+.havok-design-system-dnd-score-container-title {
+  bottom: 12px;
+  font-size: var(--text-size-sub-02);
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;;
+}

@@ -10,15 +10,18 @@ export interface SimpleListItem {
 }
 
 export interface SimpleListProps {
+  isBulleted?: boolean;
   items: SimpleListItem[];
 }
 
 export const SimpleList: FC<SimpleListProps & HTMLAttributes<HTMLUListElement>> = ({
+  isBulleted = false,
   items,
   ...props
 }) => {
   const classList = {
-    'havok-design-system-simple-list': true,
+    'havok-design-system-simple-list': !isBulleted,
+    'havok-design-system-simple-list-bulleted': isBulleted,
     [props.className ?? '']: true
   };
 
@@ -28,8 +31,15 @@ export const SimpleList: FC<SimpleListProps & HTMLAttributes<HTMLUListElement>> 
     <ul className={classString}>
       {
         Children.toArray(items.map((item) => {
+          const itemClassList = {
+            'havok-design-system-simple-list-item': !isBulleted,
+            'havok-design-system-simple-list-item-bulleted': isBulleted
+          };
+
+          const itemClassString = classNames(itemClassList);
+
           return (
-            <li className="havok-design-system-simple-list-item">
+            <li className={itemClassString}>
               {item.content}
             </li>
           );

@@ -4,8 +4,10 @@ import { SimpleList } from '../../components/core';
 
 const meta: Meta<typeof SimpleList> = {
   argTypes: {
+    isBulleted: { control: 'boolean' }
   },
   args: {
+    isBulleted: false,
     items: [
       {
         content: 'The quick brown fox jumps over the lazy dog'
@@ -29,3 +31,9 @@ const meta: Meta<typeof SimpleList> = {
 export default meta;
 
 export const Default: StoryObj<typeof SimpleList> = {};
+
+export const Bulleted: StoryObj<typeof SimpleList> = {
+  args: {
+    isBulleted: true
+  }
+};

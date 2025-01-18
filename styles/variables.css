@@ -15,8 +15,8 @@
   --border-radius-01: 0.25rem;
   --border-radius-02: 0.5rem;
 
-  --box-shadow-base: 0 0 8px 0 rgba(0, 0, 0, 0.85);
-  --box-shadow-light: 0 0 8px 0 rgba(0, 0, 0, 0.5);
+  --box-shadow-base: 0 0 4px 0 rgba(0, 0, 0, 0.85);
+  --box-shadow-light: 0 0 4px 0 rgba(0, 0, 0, 0.5);
   --box-shadow-inset: inset 0 0 8px 0 rgba(0, 0, 0, 0.85);
 
   --font-family-body: "Newsreader", serif;
@@ -28,8 +28,11 @@
   --logo-size-content: 200px;
   --logo-size-thumbnail: 50px;
 
-  --padding-size-01: 0.5rem;
-  --padding-size-02: 1.25rem;
+  --padding-size-00: 0.25rem; /* 4px */
+  --padding-size-01: 0.5rem; /* 8px */
+  --padding-size-02: 1.25rem; /* 20px */
+
+  --tag-size: 1.25rem; /* 20px */
 
   --text-font-weight-normal: 400;
   --text-font-weight-heavy: 700;
@@ -42,6 +45,7 @@
   --text-line-height-header-05: 1.5;
   --text-line-height-header-06: 1.5;
   --text-line-height-list-item:  1;
+  --text-line-height-list-item-bulleted: 1.5;
   --text-line-height-sub-01: 2;
 
   --text-size-body: 1rem; /* 16px */
@@ -54,6 +58,7 @@
   --text-size-header-06: 1.25rem; /* 20px */
   --text-size-list-item:  1rem; /* 16px */
   --text-size-sub-01: 0.75rem; /* 12px */
+  --text-size-sub-02: 0.625rem; /* 10px */
 
   --text-spacing-body:  1rem; /* 16px */
   --text-spacing-button:  0.5rem; /* 8px */
