@@ -253,15 +253,22 @@ html {
 }
 
 .havok-design-system-button {
+  align-items: center;
   border-radius: var(--border-radius-02);
   box-sizing: border-box;
   cursor: pointer;
+  display: inline-flex;
   font-family: var(--font-family-title);
   font-size: var(--text-size-button);
-  line-height: 1;
-  padding: var(--padding-size-02);
+  height: var(--button-height);
+  padding: 0 var(--padding-size-02);
   text-transform: uppercase;
+  text-wrap: nowrap;
   transition: var(--transition-speed);
+}
+
+.havok-design-system-button-text {
+  display: inline-block;
 }
 
 .havok-design-system-button svg {
@@ -302,6 +309,8 @@ html {
 }
 
 .havok-design-system-button-container {
+  display: flex;
+  flex-wrap: wrap;
   margin-bottom: var(--text-spacing-grouped-content);
   margin-top: var(--text-spacing-grouped-content);
 }

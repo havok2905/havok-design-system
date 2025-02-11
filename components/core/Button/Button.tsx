@@ -41,7 +41,9 @@ export const Button: FC<ButtonProps & HTMLAttributes<HTMLButtonElement>> = ({
           />
         ) : null
       }
-      {text}
+      <span className="havok-design-system-button-text">
+        {text}
+      </span>
     </button>
   );
 };
