@@ -1,6 +1,6 @@
 {
   "name": "havok-design-system",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "description": "general design system for my personal projects",
   "main": "index.js",
   "scripts": {
