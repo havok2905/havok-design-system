@@ -361,7 +361,7 @@ html {
 
 .havok-design-system-tag {
   background-color: var(--color-black-01);
-  border-radius: var(--tag-size);
+  border-radius: var(--border-radius-02);
   color: var(--color-white-01);
   display: inline-block;
   font-family: var(--font-family-body);
