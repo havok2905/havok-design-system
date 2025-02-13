@@ -11,6 +11,7 @@ export * from './Logo';
 export * from './LogoTitle';
 export * from './SideDrawer';
 export * from './SimpleList';
+export * from './Table';
 export * from './Tag';
 export * from './Text';
 export * from './TextInput';

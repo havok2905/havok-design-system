@@ -197,7 +197,7 @@ html {
   font-size: var(--text-size-body);
   font-weight: var(--text-font-weight-normal);
   line-height: var(--text-line-height-body);
-  padding: var(--padding-size-01)
+  padding: var(--padding-size-01);
 }
 
 .havok-design-system-simple-list-item:not(:last-of-type) {
@@ -388,6 +388,15 @@ html {
   width: 100%;
 }
 
+.havok-design-system-box.havok-design-system-box-dark {
+  background-color: var(--color-black-01);
+  color: var(--color-white-01);
+}
+
+.havok-design-system-box.havok-design-system-box-dark * {
+  color: var(--color-white-01);
+}
+
 .havok-design-system-box.havok-design-system-box-no-margin-bottom {
   margin-bottom: 0;
 }
@@ -485,6 +494,57 @@ html {
 .havok-design-system-item-11 .havok-design-system-box:last-child,
 .havok-design-system-item-12 .havok-design-system-box:last-child {
   margin-bottom: 0;
+}
+
+.havok-design-system-table {
+  margin-bottom: var(--text-spacing-grouped-content);
+  margin-top: var(--text-spacing-grouped-content);
+  width: 100%;
+}
+
+.havok-design-system-table-th {
+  background-color: var(--color-black-01);
+  border-bottom: solid 1px var(--color-black-00);
+  font-weight: var(--text-font-weight-heavy);
+  padding: var(--padding-size-01);
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.havok-design-system-table-tr {
+  box-sizing: border-box;
+  color: var(--color-white-01);
+  font-family: var(--font-family-body);
+  font-size: var(--text-size-body);
+  font-weight: var(--text-font-weight-normal);
+  line-height: var(--text-line-height-body);
+  text-align: left;
+}
+
+.havok-design-system-table-td {
+  background-color: var(--color-black-01);
+  border-bottom: solid 1px var(--color-black-00);
+  padding: var(--padding-size-01);
+}
+
+.havok-design-system-table-tr:first-of-type .havok-design-system-table-th:first-of-type {
+  border-top-left-radius: var(--border-radius-02);
+}
+
+.havok-design-system-table-tr:first-of-type .havok-design-system-table-th:last-of-type {
+  border-top-right-radius: var(--border-radius-02);
+}
+
+.havok-design-system-table-tr:last-of-type .havok-design-system-table-td {
+  border-bottom: none;
+}
+
+.havok-design-system-table-tr:last-of-type .havok-design-system-table-td:first-of-type {
+  border-bottom-left-radius: var(--border-radius-02);
+}
+
+.havok-design-system-table-tr:last-of-type .havok-design-system-table-td:last-of-type {
+  border-bottom-right-radius: var(--border-radius-02);
 }
 
 /** PHONE BREAKPOINTS */

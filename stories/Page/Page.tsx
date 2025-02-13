@@ -13,7 +13,13 @@ import {
   Tag,
   Text,
   TextInput,
-  Title
+  Title,
+  Table,
+  TableHead,
+  TableBody,
+  TableRow,
+  TableHeader,
+  TableCell
 } from '../../components/core';
 
 export const Page = () => {
@@ -58,6 +64,11 @@ export const Page = () => {
               Maecenas vitae ex <Text isBold isSpan>sollicitudin</Text>, sodales ligula sed, interdum metus. Sed non imperdiet velit. Ut ut arcu orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempus lorem fermentum pharetra fermentum. Nulla tellus justo, euismod sagittis diam id, ornare laoreet leo. Maecenas nec lectus augue. Aenean feugiat mi vel sollicitudin sollicitudin. 
             </Text>
             <Box>
+              <Text>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean vel magna eget lorem commodo mattis. Curabitur consectetur dolor sed nisi facilisis mattis. Fusce ut efficitur ante. Nulla vitae libero risus. Suspendisse id condimentum mauris, vel cursus augue. Aenean in ligula orci. Mauris nec mauris ac risus condimentum scelerisque. In ut dapibus turpis, id efficitur erat. Morbi id blandit augue. Suspendisse porta mi diam, a euismod sem consequat eget. Morbi euismod eleifend faucibus. 
+              </Text>
+            </Box>
+            <Box isDarkMode>
               <Text>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean vel magna eget lorem commodo mattis. Curabitur consectetur dolor sed nisi facilisis mattis. Fusce ut efficitur ante. Nulla vitae libero risus. Suspendisse id condimentum mauris, vel cursus augue. Aenean in ligula orci. Mauris nec mauris ac risus condimentum scelerisque. In ut dapibus turpis, id efficitur erat. Morbi id blandit augue. Suspendisse porta mi diam, a euismod sem consequat eget. Morbi euismod eleifend faucibus. 
               </Text>
@@ -136,8 +147,60 @@ export const Page = () => {
           </Item>
         </GridRow>
         <GridRow>
+          <Table>
+            <TableHead>
+              <TableRow>
+                <TableHeader>
+                  Foo
+                </TableHeader>
+                <TableHeader>
+                  Bar
+                </TableHeader>
+                <TableHeader>
+                  Baz
+                </TableHeader>
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              <TableRow>
+                <TableCell>
+                  A
+                </TableCell>
+                <TableCell>
+                  B
+                </TableCell>
+                <TableCell>
+                  C
+                </TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>
+                  A
+                </TableCell>
+                <TableCell>
+                  B
+                </TableCell>
+                <TableCell>
+                  C
+                </TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>
+                  A
+                </TableCell>
+                <TableCell>
+                  B
+                </TableCell>
+                <TableCell>
+                  C
+                </TableCell>
+              </TableRow>
+            </TableBody>
+          </Table>
+        </GridRow>
+        <GridRow>
           <Item columns={12}>
-          <Box>
+            <Box>
               <Title as="h6" level="06">
                 The quick brown fox jumps over the lazy dog
               </Title>

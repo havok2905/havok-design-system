@@ -6,6 +6,12 @@ import {
   Item,
   SimpleList,
   SimpleListItem,
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
   Text,
   Title
 } from '../../core';
@@ -43,12 +49,6 @@ export const CharacterSheet: FC<CharacterSheetProps> = ({
       };
     });
   };
-
-  const inventoryItems: SimpleListItem[] = character.inventory.map((inventoryItem) => {
-    return {
-      content: `${inventoryItem.total} - ${inventoryItem.label}`
-    };
-  });
 
   return (
     <div style={{
@@ -294,7 +294,34 @@ export const CharacterSheet: FC<CharacterSheetProps> = ({
             <Title as="h2" level="02">
               Inventory
             </Title>
-            <SimpleList items={inventoryItems}/>
+            <Table>
+              <TableHead>
+                <TableRow>
+                  <TableHeader>
+                    Total
+                  </TableHeader>
+                  <TableHeader>
+                    Name
+                  </TableHeader>
+                </TableRow>
+              </TableHead>
+              <TableBody>
+                {
+                  character.inventory.map((inventoryItem) => {
+                    return (
+                      <TableRow>
+                        <TableCell>
+                          {inventoryItem.total}
+                        </TableCell>
+                        <TableCell>
+                          {inventoryItem.label}
+                        </TableCell>
+                      </TableRow>
+                    )
+                  })
+                }
+              </TableBody>
+            </Table>
             <Title as="h2" level="02">
               Biography
             </Title>
